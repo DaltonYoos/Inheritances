@@ -7,7 +7,10 @@ quarterback = ac.Football_Player(6.2,250,0.15,'quarterback','offense')
 
 print("The height for the generic athlete is:",generic_athlete.get_ht())
 
-#print("The team of the generic athlete is:",generic_athlete.get_team())
+#print("The team of the generic athlete is:",generic_athlete.quarterback())
+# get_team is a method associated with the sub class not the super class
+#Super classes cannot accept methods associated with the subclass
+
 
 print("The weight for the football player is:",quarterback.get_wt())
 
