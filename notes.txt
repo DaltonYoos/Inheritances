@@ -1,0 +1,3 @@
+Polymorphism: An object's ability to take different forms
+
+Attributes that are within the super class are not directly available to the sub class
